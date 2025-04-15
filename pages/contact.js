@@ -1,10 +1,9 @@
-// pages/contact.js
+import Layout from '../components/Layout';
 
 export default function Contact() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <Layout>
       <h1>Contactează-ne</h1>
-      <p>Completează formularul de mai jos pentru a ne trimite un mesaj.</p>
       <form style={{ marginTop: '1rem' }}>
         <div style={{ marginBottom: '1rem' }}>
           <label>Nume:</label><br />
@@ -20,6 +19,6 @@ export default function Contact() {
         </div>
         <button type="submit">Trimite</button>
       </form>
-    </div>
+    </Layout>
   );
 }
