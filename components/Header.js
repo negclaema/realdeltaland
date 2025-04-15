@@ -17,6 +17,9 @@ const Header = () => {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
+	<li>
+  	<Link href="/rezervare">Rezervare</Link>
+	</li>
         </ul>
       </nav>
     </header>
